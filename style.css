@@ -72,6 +72,7 @@ button,
 .content {
     display: flex;
     justify-content: space-around;
+    padding: 6em;
 }
 
 .left {
@@ -79,14 +80,21 @@ button,
     flex-direction: column;
 }
 
-button#1 {
+button#first {
     align-self: flex-start;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+button#second {
+    border: 2px solid #f9f8fa;
+    border-radius: 10px;
+    align-self: center;
 }
 
 .img {
     display: flex;
     background-color: grey;
-    border: 2px solid red;
     justify-content: center;
     align-items: center;
     height: 200px;
@@ -100,6 +108,9 @@ p {
 
 button {
     margin: 10px;
+    color: #f9f8fa;
+    width: 100px;
+    height: 30px;
 }
 
 .info {
@@ -139,5 +150,6 @@ span {
     margin: 64px;
     border-radius: 10px;
     display: flex;
-    flex-flow: column wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
