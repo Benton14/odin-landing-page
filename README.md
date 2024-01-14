@@ -1,1 +1,3 @@
 # odin-landing-page
+
+Created a web page to practice html and css. Its fairly acurate to the example, but can be redone much more effeciently and acurately. If or when attempted again need to take more advantage of padding, and use less of "width or max-width" syntax. Used too many divs when the goal could've been achieved with less. The css was very unorganized, need to group better, and can be cleaned up especially if less divs are present. The goal look was achieved but in a much more roundabout, hard headed way then what it needed to be.
