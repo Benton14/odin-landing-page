@@ -7,8 +7,14 @@ p {
     flex-wrap: wrap;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
 h2 {
-    text-align: center
+    text-align: center;
+    color: #1F2937;
 }
 
 h5 {
@@ -16,14 +22,38 @@ h5 {
     justify-content: flex-end;
     align-items: flex-start;
     margin-top: 0px;
+    font-size: 24px;
 }
 
 button {
-    flex-basis: 0px;
+    border-radius: 5px;
+    color: #F9FAF8;
 }
 
 ul {
     list-style: none;
+}
+
+.header,
+.l-info,
+.copyright,
+.info {
+    color: #F9FAF8;
+}
+
+.quote-container,
+.img-placeholder {
+    background-color: #E5E7EB;
+}
+
+.dark-section,
+.footer {
+    background-color: #1F2937;
+}
+
+button, 
+.box {
+    background-color: #3882F6;
 }
 
 .header {
@@ -35,7 +65,7 @@ ul {
 
 .logo {
     font-weight: 700;
-    font-size: large;
+    font-size: 24px;
 }
 
 .right-links {
@@ -56,7 +86,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
     width: 400px;
     height: 200px;
 }
@@ -78,13 +107,12 @@ ul {
     width: 75px;
     height: 75px;
     border-radius: 15px;
-    border: 2px solid blue;
+    border: 2px solid #3882F6;
 }
 
 .quote-container {
     display: flex;
     justify-content: center;
-    background-color: lightgray;
 }
 
 .card2 {
@@ -95,10 +123,12 @@ ul {
 .quote {
    max-width: 600px;
    margin-bottom: 0px;
+   font-size: 36px;
+   font-style: italic;
+   color: #1f2937;
 }
 
 .box {
-    background-color: blue;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -109,9 +139,4 @@ ul {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: darkblue;
-}
-
-.copyright {
-    color: white;
 }
