@@ -59,11 +59,15 @@ button,
     background-color: #3882F6;
 }
 
+.dark-section {
+    padding-bottom: 54px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 54px;
+    margin-bottom: 36px;
 }
 
 .logo {
@@ -79,6 +83,7 @@ button,
 .title-card {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .l-info {
