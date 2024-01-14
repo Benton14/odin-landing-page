@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center
+}
+
+h5 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 0px;
+}
+
+button {
+    flex-basis: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: large;
+}
+
+.right-links {
+    display: flex;
+    gap: 12px;
+}
+
+.title-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.l-info {
+    max-width: 400px;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 400px;
+    height: 200px;
+}
+
+.info-square {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border: 2px solid blue;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.card2 {
+    max-width: 400px;
+    margin: 24px;
+}
+
+.quote {
+   max-width: 600px;
+   margin-bottom: 0px;
+}
+
+.box {
+    background-color: blue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+}
+
+.copyright {
+    color: white;
+}
